@@ -8,11 +8,10 @@ package cn.tedu.innerclass;
 public class TestInner2 {
     public static void main(String[] args) {
         //使用内部类的shoot()
-        //Outer2.Inner2 oi = new Outer2().new Inner2();
-        //oi.shoot();
+//        Outer2.Inner2 oi = new Outer2().new Inner2();
+//        oi.shoot();
         /*如果Inner2成员内部类被private修饰，无法直接创建对象*/
         new Outer2().getInner2Shoot();
-
     }
 }
 

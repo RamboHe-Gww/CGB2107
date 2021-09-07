@@ -9,6 +9,12 @@ import java.io.*;
 /*本类用于练习字符输入流*/
 public class TestIn2 {
     public static void main(String[] args) {
+        String[] t = new String[]{"123"};
+        String t1 = "123";
+        t1.charAt(0);
+        t1.format(t1, "123");
+
+
 //        method1();//用于普通字符流读取
         method2();//用于高效字符流读取
     }

@@ -1,4 +1,4 @@
-package cn.tedu.review;
+package cn.tedu;
 
 /**
  * FileName£ºReviewBox

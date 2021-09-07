@@ -23,9 +23,22 @@ public class TestInner5 {
 
             @Override
             public void get() {
-
+                System.out.println("正在获取...");
             }
         }.save();
+
+        new Inter1(){
+
+            @Override
+            public void save() {
+                System.out.println("正在保存...");
+            }
+
+            @Override
+            public void get() {
+                System.out.println("正在获取...");
+            }
+        }.get();
 
         new Inter2(){
             @Override
