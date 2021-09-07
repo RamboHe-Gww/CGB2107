@@ -16,13 +16,15 @@ public class TestInner1 {
         new Outer().find();
 
         //内部类对象
-//        Outer.Inner oi = new Outer.Inner();
+//        Outer.Inner oi1 = new Outer.Inner();
         Outer.Inner oi = new Outer().new Inner();
         oi.delete();//内部类对象使用内部类方法
 //        o.delete();//报错，外部类无法直接使用内部类资源
         System.out.println(oi.sum);
     }
 }
+
+
 
 //外部类
 class Outer{

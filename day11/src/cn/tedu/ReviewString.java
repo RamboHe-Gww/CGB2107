@@ -1,4 +1,4 @@
-package cn.tedu.review;
+package cn.tedu;
 
 /**
  * FileName：ReviewString
@@ -7,6 +7,7 @@ package cn.tedu.review;
 public class ReviewString {
     public static void main(String[] args) {
         //效率高方式，数据在堆中常量池
+        String String = "abc";
         String s1 = "abc";
         String s2 = "abc";
         //数据在堆中
