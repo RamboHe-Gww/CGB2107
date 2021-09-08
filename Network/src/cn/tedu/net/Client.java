@@ -22,7 +22,7 @@ public class Client {
                 System.out.print(c);
             }
 
-//            out.close();
+//            out.close();//
             socket.close();
         } catch (IOException e) {
             e.printStackTrace();

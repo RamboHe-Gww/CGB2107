@@ -14,6 +14,7 @@ public class GetLocalhost {
         System.out.println(host);
     }
 
+    //获取IP和主机名
     public static String getHost(){
         String IP = null;
         String hostName = null;

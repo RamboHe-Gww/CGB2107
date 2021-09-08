@@ -12,6 +12,7 @@ public class TestIO {
         method2();
     }
 
+    //读一行写一行
     private static void method2() {
         BufferedReader in = null;
         PrintWriter out = null;
