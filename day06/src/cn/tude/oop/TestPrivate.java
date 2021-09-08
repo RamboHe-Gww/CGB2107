@@ -11,21 +11,21 @@ import cn.tude.ooptest.Person;
 public class TestPrivate {
 	public static void main(String[] args) {
 		Student s = new Student();
-		
-		s.name = "aaa";
-		s.sno = 41;
-		System.out.println(s.name);
-		System.out.println(s.sno);
-		
+
+//		s.name = "aaa";
+//		s.sno = 41;
+//		System.out.println(s.name);
+//		System.out.println(s.sno);
+
 		s.setSubject("Java");
 		System.out.println(s.getSubject());
-		
+
 		s.study();
 		
-		Person p = new Person();
-		p.setGrade("2107");
-		System.out.println(p.getGrade());
-		p.study();
+//		Person p = new Person();
+//		p.setGrade("2107");
+//		System.out.println(p.getGrade());
+//		p.study();
 		
 		
 	}
